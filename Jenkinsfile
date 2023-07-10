@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     sh('chmod +x gradlew')
-                    sh('./gradlew --info clean bootJar')
+                    sh('./gradlew --info clean')
                 }
             }
         }
